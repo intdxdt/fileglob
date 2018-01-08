@@ -39,9 +39,25 @@ func filter(results *[]string, filters []string, strict bool, ignoreDirs []strin
 
 //Glob
 func Glob(directory string, filters []string, strict bool, ignoreDirs []string) ([]string, error) {
+	directory = getRealPath(directory)
 	results := make([]string, 0)
-	err := filepath.Walk(directory, filter(&results, filters, strict, ignoreDirs))
+	err     := filepath.Walk(directory, filter(&results, filters, strict, ignoreDirs))
 	return results, err
+}
+
+func getRealPath(dir string) string {
+	var stat, e = os.Lstat(dir)
+	if e != nil {
+		log.Panic(e)
+	}
+	if stat.Mode()&os.ModeSymlink == os.ModeSymlink {
+		d, e := os.Readlink(dir)
+		if e != nil {
+			log.Panic(e)
+		}
+		dir = d
+	}
+	return dir
 }
 
 //Glob
