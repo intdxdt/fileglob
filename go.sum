@@ -1,0 +1,6 @@
+github.com/franela/goblin v0.0.0-20211003143422-0a4f594942bf h1:NrF81UtW8gG2LBGkXFQFqlfNnvMt9WdB46sfdJY4oqc=
+github.com/franela/goblin v0.0.0-20211003143422-0a4f594942bf/go.mod h1:VzmDKDJVZI3aJmnRI9VjAn9nJ8qPPsN1fqzr9dqInIo=
+github.com/intdxdt/extfilter v0.0.0-20171024122906-1ef93af769c5 h1:rTbGIuV/bV72XajjMknE0/Jfz5tis5/6oU4pJfjk71o=
+github.com/intdxdt/extfilter v0.0.0-20171024122906-1ef93af769c5/go.mod h1:ho1OEyceEx+3Pr6oE2LhdDSK5tqDSxuWrzsOP3HFxxY=
+github.com/intdxdt/extfilter v1.0.0 h1:ejRINhlQlepVjxKzY2xvvWQEEhUAK8OTnS8749wx8yo=
+github.com/intdxdt/extfilter v1.0.0/go.mod h1:kSDx/eVopmvcC9Gg/KFYC6hom8Hz3hZiCDzUN1diUP0=

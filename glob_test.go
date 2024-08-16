@@ -1,10 +1,10 @@
 package fileglob
 
 import (
-	"os"
-	"testing"
-	"path/filepath"
 	"github.com/franela/goblin"
+	"os"
+	"path/filepath"
+	"testing"
 )
 
 func TestGlob(t *testing.T) {
@@ -36,7 +36,5 @@ func TestGlob(t *testing.T) {
 			g.Assert(len(res)).Equal(8)
 		})
 	})
-
-
 
 }

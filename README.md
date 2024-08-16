@@ -1,2 +1,0 @@
-# fileglob
-file glob - go
