@@ -1,11 +1,12 @@
 package fileglob
 
 import (
-	"github.com/intdxdt/extfilter"
 	"log"
 	"os"
 	"path/filepath"
 	"runtime"
+
+	"github.com/intdxdt/extfilter"
 )
 
 const globStreamLimit = 64

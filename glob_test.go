@@ -1,10 +1,11 @@
 package fileglob
 
 import (
-	"github.com/franela/goblin"
 	"os"
 	"path/filepath"
 	"testing"
+
+	"github.com/franela/goblin"
 )
 
 func TestGlob(t *testing.T) {

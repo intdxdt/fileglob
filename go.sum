@@ -4,3 +4,5 @@ github.com/intdxdt/extfilter v0.0.0-20171024122906-1ef93af769c5 h1:rTbGIuV/bV72X
 github.com/intdxdt/extfilter v0.0.0-20171024122906-1ef93af769c5/go.mod h1:ho1OEyceEx+3Pr6oE2LhdDSK5tqDSxuWrzsOP3HFxxY=
 github.com/intdxdt/extfilter v1.0.0 h1:ejRINhlQlepVjxKzY2xvvWQEEhUAK8OTnS8749wx8yo=
 github.com/intdxdt/extfilter v1.0.0/go.mod h1:kSDx/eVopmvcC9Gg/KFYC6hom8Hz3hZiCDzUN1diUP0=
+github.com/intdxdt/extfilter v1.0.1 h1:oKnMOJMhD6Egy1LIGwVqYIs8ye/ebg3ZQnXhX01TcJY=
+github.com/intdxdt/extfilter v1.0.1/go.mod h1:FWhvRLTYBQmTf+aVBsAq8c9SAkWXSbmq8nlrJwhdjq4=
